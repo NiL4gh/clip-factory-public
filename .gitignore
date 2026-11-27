@@ -1,0 +1,43 @@
+.env
+cookies.txt
+__pycache__/
+*.pyc
+.venv/
+venv/
+output/
+uploads/
+*.mp4
+.DS_Store
+
+# Runtime / build artifacts (should never be committed)
+work/*
+!work/fonts/
+!work/fonts/*.ttf
+*.tsbuildinfo
+*.log
+.remember/
+.agent/
+.agents/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# PyInstaller build artifacts
+build/
+dist/
+logs/
+test_normalize.py
+
+# Working-state / agent artifacts (never committed)
+.atl/
+.sdd/
+.system/
+.claude/
+*.zip
+*.zip.*
+*.7z*
+ClipFactory-Release*
+
+# Local toolkit binaries (large, machine-local — never committed)
+ffmpeg.exe
+ffprobe.exe
